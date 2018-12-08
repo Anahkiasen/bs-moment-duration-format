@@ -16,9 +16,9 @@
         "build": "bsb -make-world",
         "start": "bsb -make-world -w",
         "clean": "bsb -clean-world",
-        "pretest": "yarn run build",
+        "pretest": "yarn build",
         "test": "jest",
-        "lint": "prettier '{src/**,.}/*.{re,json,md}' --write",
-        "prepublish": "yarn run clean && yarn run build"
+        "lint": "prettier '{src/**,.}/*.{yml,re,json,md}' --write",
+        "prepublish": "yarn clean && yarn build"
     }
 }
