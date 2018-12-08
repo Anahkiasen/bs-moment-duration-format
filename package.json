@@ -1,8 +1,17 @@
 {
     "name": "bs-moment-duration-format",
+    "description": "Bucklescript bindings for moment-duration-format",
+    "repository": "git@github.com:Anahkiasen/bs-moment-duration-format.git",
     "version": "0.1.0",
     "main": "lib/js/src/MomentDurationFormat.js",
     "license": "MIT",
+    "keywords": [
+        "reason",
+        "bucklescript",
+        "moment",
+        "duration",
+        "format"
+    ],
     "dependencies": {
         "moment-duration-format": "^2.2.2"
     },
