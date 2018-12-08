@@ -1,0 +1,15 @@
+{
+    "name": "bs-moment-duration-format",
+    "sources": [
+        {
+            "dir": "src"
+        },
+        {
+            "dir": "src/__tests__",
+            "type": "dev"
+        }
+    ],
+    "bs-dependencies": ["bs-moment"],
+    "bs-dev-dependencies": ["@glennsl/bs-jest"],
+    "refmt": 3
+}
