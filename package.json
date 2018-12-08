@@ -19,6 +19,6 @@
         "pretest": "yarn build",
         "test": "jest",
         "lint": "prettier '{src/**,.}/*.{yml,re,json,md}' --write",
-        "prepublish": "yarn clean && yarn build"
+        "prepare": "yarn clean && yarn build"
     }
 }

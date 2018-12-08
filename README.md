@@ -9,6 +9,16 @@ npm install bs-moment bs-moment-duration-format # Or
 yarn add bs-moment bs-moment-duration-format
 ```
 
+Then update your `bsconfig.json` file accordingly:
+
+```json
+"bs-dependencies": [
+    "...",
+    "bs-moment",
+    "bs-moment-duration-format"
+],
+```
+
 ## Usage
 
 First you'll need to setup the integration somewhere where it will be executed, this registers the underlying Javascript method with Moment.js:
