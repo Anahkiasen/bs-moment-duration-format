@@ -1,6 +1,6 @@
 {
     "name": "bs-moment-duration-format",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "main": "lib/js/src/MomentDurationFormat.js",
     "license": "MIT",
     "dependencies": {
